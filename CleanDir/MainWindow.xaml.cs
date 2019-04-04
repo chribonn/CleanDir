@@ -27,12 +27,12 @@ namespace DFGenerator
             // Populate the product version number
             txtVersion.Text = GetDFGenVer();
 
-            txbNotes.Text = "The directory log file should be created using the following command [dir & lt; &lt; source path&gt; &gt; / a:-D / s / B > [filename.log]]." +
-               Environment.NewLine +
+            txbNotes.Text = "The directory log file should be created using the following command [dir <<source path>> /a:-D /s /B > [filename.log]]." +
+               Environment.NewLine + Environment.NewLine +
                "Invalid characters will be replaced by the character [ " + replaceChar + " ]. If a situation exists in which duplicate file names will result within a particular directory, the utility automatically generates unqiue files names." +
-               Environment.NewLine +
+               Environment.NewLine + Environment.NewLine +
                "A log file is generated within the same folder as the directory log file." +
-               Environment.NewLine +
+               Environment.NewLine + Environment.NewLine +
                "This log file contains batch file commands to rename the files as well as remarks linking to the source log file. The file will need to be renamed to make it executable.";
 
                 m_oWorker = new BackgroundWorker();

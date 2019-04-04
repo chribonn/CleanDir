@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanDir", "CleanDir\CleanDir.csproj", "{0F064147-52C7-4D69-93C6-E12F853FE207}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{91CC857D-6F35-42F8-A272-5FF2A80B3B06}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{91CC857D-6F35-42F8-A272-5FF2A80B3B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{CBB3327D-3CFE-4A2C-AF87-5B5B339E50FE}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\CleanDir.ico = Resources\CleanDir.ico
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

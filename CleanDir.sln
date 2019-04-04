@@ -5,16 +5,21 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanDir", "CleanDir\CleanDir.csproj", "{0F064147-52C7-4D69-93C6-E12F853FE207}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{91CC857D-6F35-42F8-A272-5FF2A80B3B06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = This utility reads in a log file and generates a potential batch file to rename files that have invalid characters.
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0F064147-52C7-4D69-93C6-E12F853FE207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F064147-52C7-4D69-93C6-E12F853FE207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F064147-52C7-4D69-93C6-E12F853FE207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F064147-52C7-4D69-93C6-E12F853FE207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CC857D-6F35-42F8-A272-5FF2A80B3B06}.Debug|Any CPU.ActiveCfg = Debug
+		{91CC857D-6F35-42F8-A272-5FF2A80B3B06}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
